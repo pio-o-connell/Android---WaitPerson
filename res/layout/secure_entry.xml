@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@+id/chef02"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+     >
+     
+    <ImageView android:id="@+id/chef01"   	   
+        	   android:src="@drawable/chef"
+        	   android:layout_width="wrap_content"
+        	   android:layout_height="wrap_content"
+        	   android:scaleType="center" />
+
+	 <RelativeLayout
+	     android:id="@+id/RelativeLayout01"
+	     android:layout_width="fill_parent"
+	     android:layout_height="fill_parent" >
+
+	     <TextView
+	         android:id="@+id/TextView02"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_alignTop="@+id/etPassword"
+	         android:text="@string/Password1"
+	         android:width="100dp" />
+
+	     <Button
+	         android:id="@+id/bResults"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_alignLeft="@+id/TextView02"
+	         android:layout_below="@+id/etPassword"
+	         android:layout_marginTop="50dp"
+	         android:text="@+string/Submit" />
+
+	     <EditText
+	         android:id="@+id/etUserName"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_alignParentTop="true"
+	         android:layout_marginTop="36dp"
+	         android:layout_toRightOf="@+id/TextView02"
+	         android:ems="10"
+	         android:hint="@string/Username"
+	         android:width="200dp" />
+
+	     <TextView
+	         android:id="@+id/TextView01"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_alignBottom="@+id/etUserName"
+	         android:layout_alignParentLeft="true"
+	         android:text="@string/Username1"
+	         android:width="100dp" />
+
+	     <EditText
+	         android:id="@+id/etPassword"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_alignLeft="@+id/etUserName"
+	         android:layout_below="@+id/etUserName"
+	         android:ems="10"
+	         android:hint="@string/Password"
+	         android:inputType="textPassword"
+	         android:width="200dp" />
+	 </RelativeLayout>
+
+</FrameLayout>

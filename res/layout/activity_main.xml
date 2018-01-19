@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<TableLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+		
+		<TableRow
+            android:id="@+id/tableRow99"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+			<Button
+	         android:id="@+id/bCalculate"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_marginTop="50dp"
+	         android:text="@+string/Calculate" />
+			 <View
+ 			 android:layout_width="100dp"
+ 			 android:layout_height="match_parent"
+  			android:layout_weight="1"/>
+			
+			
+			
+			<ProgressBar
+        android:id="@+id/progressbar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="270px"
+        android:layout_height="50px"
+        android:progress="0"
+        android:secondaryProgress="0" />
+			
+			
+			
+			
+		    <TextView
+       			 android:id="@+id/textView970"
+        		 android:layout_width="wrap_content"
+        		 android:layout_height="wrap_content"
+				 android:text="@string/Total"
+        		 android:textAppearance="?android:attr/textAppearanceLarge" />
+           <TextView
+       			 android:id="@+id/textView972"
+        		 android:layout_width="wrap_content"
+        		 android:layout_height="wrap_content"
+				 android:text="@string/Zero"
+        		 android:textAppearance="?android:attr/textAppearanceLarge" />
+		    
+		    
+		 </TableRow>
+		 
+		
+		
+        <TableRow
+            android:id="@+id/tableRow01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+			
+           <ImageView
+               android:id="@+id/imageView01"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:maxHeight="200dp"
+               android:maxWidth="160dp"
+               android:layout_weight="1"
+               android:src="@drawable/steakchips" />
+           
+               <TableLayout
+         	    android:layout_width="wrap_content"
+         	    android:layout_height="wrap_content"
+         	    android:weightSum="1" >
+         		
+         	   	 <RadioGroup
+         	        android:id="@+id/radioGroup01"
+         	        android:layout_width="wrap_content"
+         	        android:layout_height="wrap_content"
+         	        android:layout_weight="1" >
+
+               	 <RadioButton
+                    android:id="@+id/radio010"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/Chips" />
+
+               	 <RadioButton
+                    android:id="@+id/radio011"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pasta" />
+
+                <RadioButton
+                    android:id="@+id/radio012"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Rice" />
+            </RadioGroup>
+         	    
+         	    
+         	    
+         	</TableLayout>
+           
+
+           <TextView
+        		android:id="@+id/item_text01"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:layout_marginLeft="16dp"
+        		android:text="@string/Steak"
+        		android:layout_weight="1"
+        		android:textAppearance="?android:attr/textAppearanceLarge" />
+           
+           
+           
+           <NumberPicker
+                android:id="@+id/numberPicker01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+           <TextView
+       			 android:id="@+id/textView010"
+        		 android:layout_width="wrap_content"
+        		 android:layout_height="wrap_content"
+				 android:text="@string/SubTotal"
+        		 android:textAppearance="?android:attr/textAppearanceLarge" />
+           <TextView
+       			 android:id="@+id/textView012"
+        		 android:layout_width="wrap_content"
+        		 android:layout_height="wrap_content"
+				 android:text="@string/Zero"
+        		 android:textAppearance="?android:attr/textAppearanceLarge" />
+           
+           
+            
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+     	<ImageView
+               android:id="@+id/imageView02"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:maxHeight="100dp"
+               android:maxWidth="160dp"
+               android:layout_weight="1"
+               android:src="@drawable/beefgreenpepper" />
+     	
+			<TableLayout
+         	    android:layout_width="wrap_content"
+         	    android:layout_height="wrap_content"
+         	    android:weightSum="1" >
+         		
+         	   	 <RadioGroup
+         	        android:id="@+id/radioGroup02"
+         	        android:layout_width="wrap_content"
+         	        android:layout_height="wrap_content"
+         	        android:layout_weight="1" >
+
+               	 <RadioButton
+                    android:id="@+id/radio020"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/Chips" />
+
+               	 <RadioButton
+                    android:id="@+id/radio021"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pasta" />
+
+                <RadioButton
+                    android:id="@+id/radio022"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Rice" />
+            </RadioGroup>
+         	    
+         	    
+         	    
+         	</TableLayout>
+           <TextView
+        		android:id="@+id/item_text02"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:layout_marginLeft="16dp"
+        		android:text="@string/Beef"
+        		android:layout_weight="1"
+        		android:textAppearance="?android:attr/textAppearanceLarge" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+			
+            <ImageView
+               android:id="@+id/imageView03"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:maxHeight="100dp"
+               android:maxWidth="160dp"
+               android:layout_weight="1"
+               android:src="@drawable/chicken" />
+			<TableLayout
+         	    android:layout_width="wrap_content"
+         	    android:layout_height="wrap_content"
+         	    android:weightSum="1" >
+         		
+         	   	 <RadioGroup
+         	        android:id="@+id/radioGroup03"
+         	        android:layout_width="wrap_content"
+         	        android:layout_height="wrap_content"
+         	        android:layout_weight="1" >
+
+               	 <RadioButton
+                    android:id="@+id/radio030"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/Chips" />
+
+               	 <RadioButton
+                    android:id="@+id/radio031"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pasta" />
+
+                <RadioButton
+                    android:id="@+id/radio032"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Rice" />
+            </RadioGroup>
+         	    
+         	    
+         	    
+         	</TableLayout>
+           <TextView
+        		android:id="@+id/item_text03"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:layout_marginLeft="16dp"
+        		android:text="@string/Chicken"
+        		android:layout_weight="1"
+        		android:textAppearance="?android:attr/textAppearanceLarge" />
+            
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+         	<ImageView
+               android:id="@+id/imageView04"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:maxHeight="100dp"
+               android:maxWidth="160dp"
+               android:layout_weight="1"
+               android:src="@drawable/donerkebab" />
+			<TableLayout
+         	    android:layout_width="wrap_content"
+         	    android:layout_height="wrap_content"
+         	    android:weightSum="1" >
+         		
+         	   	 <RadioGroup
+         	        android:id="@+id/radioGroup04"
+         	        android:layout_width="wrap_content"
+         	        android:layout_height="wrap_content"
+         	        android:layout_weight="1" >
+
+               	 <RadioButton
+                    android:id="@+id/radio040"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/Chips" />
+
+               	 <RadioButton
+                    android:id="@+id/radio041"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pasta" />
+
+                <RadioButton
+                    android:id="@+id/radio042"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Rice" />
+            </RadioGroup>
+         	    
+         	    
+         	    
+         	</TableLayout>
+           <TextView
+        		android:id="@+id/item_text04"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:layout_marginLeft="16dp"
+        		android:text="@string/Doner"
+        		android:layout_weight="1"
+        		android:textAppearance="?android:attr/textAppearanceLarge" />
+            
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+         	<ImageView
+               android:id="@+id/imageView05"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:maxHeight="100dp"
+               android:maxWidth="160dp"
+               android:layout_weight="1"
+               android:src="@drawable/fullirish" />
+			
+         	<TableLayout
+         	    android:layout_width="wrap_content"
+         	    android:layout_height="wrap_content"
+         	    android:weightSum="1" >
+         		
+         	    <RadioGroup
+         	        android:id="@+id/radioGroup1"
+         	        android:layout_width="wrap_content"
+         	        android:layout_height="wrap_content"
+         	        android:layout_weight="1" >
+
+                <RadioButton
+                    android:id="@+id/radio0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/Chips" />
+
+                <RadioButton
+                    android:id="@+id/radio1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pasta" />
+
+                <RadioButton
+                    android:id="@+id/radio2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Rice" />
+            </RadioGroup>
+         	    
+         	    
+         	    
+         	</TableLayout>
+         	
+           <TextView
+        		android:id="@+id/item_text05"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:layout_marginLeft="16dp"
+        		android:text="@string/Irish"
+        		android:layout_weight="1"
+        		android:textAppearance="?android:attr/textAppearanceLarge" />
+            
+
+        </TableRow>
+        
+        
+        <TableRow
+            android:id="@+id/tableRow06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+         
+            
+
+        </TableRow>
+        
+        
+        
+        <TableRow
+            android:id="@+id/tableRow08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+         
+            
+
+        </TableRow>
+        
+        
+        <TableRow
+            android:id="@+id/tableRow09"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+         
+            
+
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/tableRow10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+         	<ImageView
+               android:id="@+id/imageView10"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:maxHeight="100dp"
+               android:maxWidth="160dp"
+               android:layout_weight="1"
+               android:src="@drawable/pasta" />
+			<TableLayout
+         	    android:layout_width="wrap_content"
+         	    android:layout_height="wrap_content"
+         	    android:weightSum="1" >
+         		
+         	   	 <RadioGroup
+         	        android:id="@+id/radioGroup10"
+         	        android:layout_width="wrap_content"
+         	        android:layout_height="wrap_content"
+         	        android:layout_weight="1" >
+
+               	 <RadioButton
+                    android:id="@+id/radio100"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/Chips" />
+
+               	 <RadioButton
+                    android:id="@+id/radio101"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pasta" />
+
+                <RadioButton
+                    android:id="@+id/radio102"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Rice" />
+            </RadioGroup>
+         	    
+         	    
+         	    
+         	</TableLayout>
+           <TextView
+        		android:id="@+id/item_text10"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:layout_marginLeft="16dp"
+        		android:text="@string/Pasta"
+        		android:layout_weight="1"
+        		android:textAppearance="?android:attr/textAppearanceLarge" />
+            
+
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/tableRow11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+         	<ImageView
+               android:id="@+id/imageView11"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:maxHeight="100dp"
+               android:maxWidth="160dp"
+               android:layout_weight="1"
+               android:src="@drawable/omelette" />
+			<TableLayout
+         	    android:layout_width="wrap_content"
+         	    android:layout_height="wrap_content"
+         	    android:weightSum="1" >
+         		
+         	   	 <RadioGroup
+         	        android:id="@+id/radioGroup11"
+         	        android:layout_width="wrap_content"
+         	        android:layout_height="wrap_content"
+         	        android:layout_weight="1" >
+
+               	 <RadioButton
+                    android:id="@+id/radio110"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/Chips" />
+
+               	 <RadioButton
+                    android:id="@+id/radio111"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pasta" />
+
+                <RadioButton
+                    android:id="@+id/radio112"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Rice" />
+            </RadioGroup>
+         	    
+         	    
+         	    
+         	</TableLayout>
+           <TextView
+        		android:id="@+id/item_text11"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:layout_marginLeft="16dp"
+        		android:text="@string/Omelette"
+        		android:layout_weight="1"
+        		android:textAppearance="?android:attr/textAppearanceLarge" />
+            
+
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/tableRow12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+         	<ImageView
+               android:id="@+id/imageView12"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:maxHeight="100dp"
+               android:maxWidth="160dp"
+               android:layout_weight="1"
+               android:src="@drawable/continental" />
+			<TableLayout
+         	    android:layout_width="wrap_content"
+         	    android:layout_height="wrap_content"
+         	    android:weightSum="1" >
+         		
+         	   	 <RadioGroup
+         	        android:id="@+id/radioGroup12"
+         	        android:layout_width="wrap_content"
+         	        android:layout_height="wrap_content"
+         	        android:layout_weight="1" >
+
+               	 <RadioButton
+                    android:id="@+id/radio120"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/Chips" />
+
+               	 <RadioButton
+                    android:id="@+id/radio121"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pasta" />
+
+                <RadioButton
+                    android:id="@+id/radio122"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Rice" />
+            </RadioGroup>
+         	    
+         	    
+         	    
+         	</TableLayout>
+           <TextView
+        		android:id="@+id/item_text12"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:layout_marginLeft="16dp"
+        		android:text="@string/Continental"
+        		android:layout_weight="1"
+        		android:textAppearance="?android:attr/textAppearanceLarge" />
+            
+
+        </TableRow>
+         
+        <TableRow
+            android:id="@+id/tableRow13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+         	<ImageView
+               android:id="@+id/imageView13"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:maxHeight="100dp"
+               android:maxWidth="160dp"
+               android:layout_weight="1"
+               android:src="@drawable/irishstew" />
+			<TableLayout
+         	    android:layout_width="wrap_content"
+         	    android:layout_height="wrap_content"
+         	    android:weightSum="1" >
+         		
+         	   	 <RadioGroup
+         	        android:id="@+id/radioGroup13"
+         	        android:layout_width="wrap_content"
+         	        android:layout_height="wrap_content"
+         	        android:layout_weight="1" >
+
+               	 <RadioButton
+                    android:id="@+id/radio130"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/Chips" />
+
+               	 <RadioButton
+                    android:id="@+id/radio131"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pasta" />
+
+                <RadioButton
+                    android:id="@+id/radio132"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Rice" />
+            </RadioGroup>
+         	    
+         	    
+         	    
+         	</TableLayout>
+           <TextView
+        		android:id="@+id/item_text13"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:layout_marginLeft="16dp"
+        		android:text="@string/Stew"
+        		android:layout_weight="1"
+        		android:textAppearance="?android:attr/textAppearanceLarge" />
+            
+
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/tableRow07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+			<TableLayout
+         	    android:layout_width="wrap_content"
+         	    android:layout_height="wrap_content"
+         	    android:weightSum="1" >
+         		
+         		<ImageView
+               		android:id="@+id/imageView07"
+               		android:layout_width="fill_parent"
+               		android:layout_height="wrap_content"
+               		android:maxHeight="100dp"
+               		android:maxWidth="160dp"
+               		android:layout_weight="5"
+               		android:src="@drawable/pizza" />
+				<Spinner
+              		android:id="@+id/spinner07"
+               		android:layout_width="wrap_content"
+               		android:layout_height="wrap_content" />
+         	
+         	
+         	
+         	
+         	
+         	</TableLayout>
+         	<TableLayout
+         	    android:layout_width="wrap_content"
+         	    android:layout_height="wrap_content"
+         	    android:weightSum="1" >
+         	
+         	<CheckBox
+         	    android:id="@+id/checkBox0701"
+         	    android:layout_width="fill_parent"
+         	    android:layout_height="wrap_content"
+         	    android:layout_weight="1"
+         	    android:text="@string/Extra" />
+         	<CheckBox
+         	    android:id="@+id/checkBox0702"
+         	    android:layout_width="fill_parent"
+         	    android:layout_height="wrap_content"
+         	    android:layout_weight="1"
+         	    android:text="@string/Mushrooms" />
+         	<CheckBox
+         	    android:id="@+id/checkBox0703"
+         	    android:layout_width="wrap_content"
+         	    android:layout_height="wrap_content"
+         	    android:text="@string/Tomatoes" />
+         	<CheckBox
+         	    android:id="@+id/checkBox0704"
+         	    android:layout_width="wrap_content"
+         	    android:layout_height="wrap_content"
+         	    android:text="@string/Olives" />
+         	<CheckBox
+         	    android:id="@+id/checkBox0705"
+         	    android:layout_width="wrap_content"
+         	    android:layout_height="wrap_content"
+         	    android:text="@string/Pineapple" />
+         	<CheckBox
+         	    android:id="@+id/checkBox0706"
+         	    android:layout_width="wrap_content"
+         	    android:layout_height="wrap_content"
+         	    android:text="@string/Peppers" />
+         	
+         	</TableLayout>
+         	
+         	
+
+           <TextView
+        		android:id="@+id/item_text07"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:layout_marginLeft="16dp"
+        		android:text="@string/Pizza"
+        		android:layout_weight="5"
+        		android:textAppearance="?android:attr/textAppearanceLarge" />
+           
+           <NumberPicker
+                android:id="@+id/numberPicker07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+           <TextView
+       			 android:id="@+id/textView070"
+        		 android:layout_width="wrap_content"
+        		 android:layout_height="wrap_content"
+				 android:text="@string/SubTotal"
+        		 android:textAppearance="?android:attr/textAppearanceLarge" />
+           <TextView
+       			 android:id="@+id/textView072"
+        		 android:layout_width="wrap_content"
+        		 android:layout_height="wrap_content"
+				 android:text="@string/Zero"
+        		 android:textAppearance="?android:attr/textAppearanceLarge" />
+           
+            
+
+        </TableRow>
+        
+        
+    </TableLayout>
+
+    
+
+ </TableLayout>
+</ScrollView>

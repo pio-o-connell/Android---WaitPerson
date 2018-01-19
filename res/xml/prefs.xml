@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+   
+   <EditTextPreference
+       android:title="Name"
+       android:key="name"
+       android:summary="Enter Your name">
+   </EditTextPreference>
+   
+   <EditTextPreference
+      android:title="Address"
+       android:key="address"
+       android:summary="Enter Your address">
+   </EditTextPreference>
+   
+   <EditTextPreference
+      android:title="Contact No"
+       android:key="contact"
+       android:summary="Enter Your contact no.">
+   </EditTextPreference>
+   
+   <EditTextPreference
+      android:title="Quantity"
+       android:key="quantity"
+       android:summary="Enter Quantity">
+   </EditTextPreference>
+   
+   <CheckBoxPreference
+       android:title="Baby Portobella Mushrooms"
+       android:icon="@drawable/mushrooms"
+       android:defaultValue="false"
+       android:key="checkbox1"
+       android:summary="Include pizza toppings settings">     
+   </CheckBoxPreference>
+   
+   <CheckBoxPreference
+       android:title="Fresh-Sliced Roma Tomatoes"
+       android:icon="@drawable/roma"
+       android:defaultValue="false"
+       android:key="checkbox2"
+       android:summary="Include pizza toppings settings">     
+   </CheckBoxPreference>
+   
+   <CheckBoxPreference
+       android:title="Black Olives"
+       android:icon="@drawable/olives"
+       android:defaultValue="false"
+       android:key="checkbox3"
+       android:summary="Include pizza toppings settings">     
+   </CheckBoxPreference>
+   
+   <CheckBoxPreference
+       android:title="Sweet Pineapple"
+       android:icon="@drawable/pineapples"
+       android:defaultValue="false"
+       android:key="checkbox4"
+       android:summary="Include pizza toppings settings">     
+   </CheckBoxPreference>
+   
+   <CheckBoxPreference
+       android:title="Banana Peppers"
+       android:icon="@drawable/bananapeppers"
+       android:defaultValue="false"
+       android:key="checkbox5"
+       android:summary="Include pizza toppings settings">     
+   </CheckBoxPreference>
+   
+   <CheckBoxPreference
+       android:title="Extra Cheese"
+       android:icon="@drawable/extracheese"
+       android:defaultValue="true"
+       android:key="checkbox6"
+       android:summary="Include pizza toppings settings">     
+   </CheckBoxPreference>
+   
+   
+   
+   
+   
+   
+   
+    
+	<ListPreference
+	    android:title="Pizza Size"
+	    android:icon="@drawable/pizza"
+	    android:key="list"
+	    android:summary="Choose Pizza Size"
+	    android:entries="@array/list"
+	    android:entryValues="@array/lValues"
+	    ></ListPreference>
+</PreferenceScreen>

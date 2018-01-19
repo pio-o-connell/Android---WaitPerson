@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.assignment2.MainActivity" >
+
+      <item
+    android:title="@string/MenuForDay"
+    android:id="@+id/menuforday"
+    android:showAsAction="always"
+    android:icon="@drawable/ic_action_share"
+    />
+      
+     <item
+    android:title="@string/Aboutus"
+    android:id="@+id/aboutUs"
+    android:showAsAction="always"
+    android:icon="@drawable/ic_launcher"
+    android:alphabeticShortcut="a" />
+    
+  
+    
+    <item
+    android:title="@string/Quit"
+    android:id="@+id/quit"
+    />
+    
+    <item
+    android:title="@string/Preferences"
+    android:id="@+id/preferences1"
+    
+    />
+    
+    
+  
+    
+
+</menu>
